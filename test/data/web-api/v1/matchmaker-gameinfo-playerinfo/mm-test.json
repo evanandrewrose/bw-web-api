@@ -1,0 +1,546 @@
+{
+  "avatars": {
+    "avatar_default_scrlogo.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/d2edd0800865e3a5e0c0c86898010f90.png",
+    "avatar_default_scrlogo.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/35650878522dce72d2ea156a34eb8d2c.png",
+    "avatar_neutral_contest_kerrigan.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/ed92f4237ece35a572c84f98ec3b0b1a.png",
+    "avatar_neutral_contest_kerrigan.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/d6457bf7d4d0a15390cbbe39e31bd399.png",
+    "avatar_neutral_protoss.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/ba15b43108a74f6e9249265db1e1d5ec.png",
+    "avatar_neutral_protoss.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/b7fffe673e27da9e43cf2c07cd0c4b88.png",
+    "avatar_neutral_terran.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/cbe98f2e1d28ee9c66a827f8cf8b5afa.png",
+    "avatar_neutral_terran.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/1876b578f3438d098792226105430c4b.png",
+    "avatar_neutral_zerg.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/f6790fdd4a92e038cea10197ebaa8c7d.png",
+    "avatar_neutral_zerg.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/2607e624dba1e6370f116f7b5dd63bd4.png",
+    "avatar_protoss_advisor.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/3dabdfc201effbe32ce54e29ebfff551.png",
+    "avatar_protoss_advisor.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/150f58e67a1aeca3e4a0d7657d7b1032.png",
+    "avatar_protoss_probe.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/ca849b3e45c18c8f9640290aff5e2fad.png",
+    "avatar_protoss_probe.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/c966c375c2383a5138b80beb4414e3c8.png",
+    "avatar_terran_advisor.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/b924d7cebc9fcdd9832636804bbb2c0c.png",
+    "avatar_terran_advisor.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/c140cd97426bfb050bcedd79f5c61c2d.png",
+    "avatar_terran_scv.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/3c8531bc888c3565aff04a5a1d0902ef.png",
+    "avatar_terran_scv.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/fa836426e7746a595762daeb8c91f565.png",
+    "avatar_zerg_advisor.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/d2eef4b5396a5a1808429f48f9f07280.png",
+    "avatar_zerg_advisor.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/2a08afcf992b2abb3044a241db008251.png",
+    "avatar_zerg_drone.jpg": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/e4209753a27beb9ef27e350450781304.png",
+    "avatar_zerg_drone.jpg?f=1": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/6a7dcbb0a6de43d48e6c82c14bae3689.png"
+  },
+  "avatars_awards": { "win_igr": 12.0, "win_normal": 10 },
+  "avatars_locked": {
+    "avatar_protoss_arbiter.jpg": {
+      "level": 5000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/8535588141e1ec4aa5e6e89eb3ee3740.png"
+    },
+    "avatar_protoss_arbiter.jpg?f=1": {
+      "level": 5000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/a87b9466df5c7f2d00dc4417e20d9c62.png"
+    },
+    "avatar_protoss_carrier.jpg": {
+      "level": 15000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/7f19e7af8f63fbda946bf75857505e4e.png"
+    },
+    "avatar_protoss_carrier.jpg?f=1": {
+      "level": 15000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/4514a1087f2b513f2e6a29853a18c6b8.png"
+    },
+    "avatar_protoss_darkarchon.jpg": {
+      "level": 50000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/53f70f33d24be0782307ad0ccdf3b728.png"
+    },
+    "avatar_protoss_darkarchon.jpg?f=1": {
+      "level": 50000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/474a9362751ae67aa22472efcffc0076.png"
+    },
+    "avatar_protoss_darktemplar.jpg": {
+      "level": 10000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/584d9c9dba614a34e626f5f81d36d87f.png"
+    },
+    "avatar_protoss_darktemplar.jpg?f=1": {
+      "level": 10000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/bb1ba4e32899617810ca1249c9b83993.png"
+    },
+    "avatar_protoss_dragoon.jpg": {
+      "level": 2500,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/f931798e26f1d5a5fec9821fd70745e6.png"
+    },
+    "avatar_protoss_dragoon.jpg?f=1": {
+      "level": 2500,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/62471117ed82e7cbc0174ce74d210ccf.png"
+    },
+    "avatar_protoss_interceptor.jpg": {
+      "level": 25000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/a57704fd42417b2a0ab088dd15ff7051.png"
+    },
+    "avatar_protoss_interceptor.jpg?f=1": {
+      "level": 25000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/79febca8412c90e6def869f5b6644dcb.png"
+    },
+    "avatar_protoss_observer.jpg": {
+      "level": 250,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/da0c15010a74bf93ab35fdcf9ef74e0c.png"
+    },
+    "avatar_protoss_observer.jpg?f=1": {
+      "level": 250,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/69a4d4aed189ba644b4614a1b39b95ce.png"
+    },
+    "avatar_protoss_templar.jpg": {
+      "level": 1000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/a04de118d291f12385a868ba950f0f2e.png"
+    },
+    "avatar_protoss_templar.jpg?f=1": {
+      "level": 1000,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/094e26aa49f368b28873ddee987862ad.png"
+    },
+    "avatar_protoss_zealot.jpg": {
+      "level": 500,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/65d8e88a91ac99aa4de4d7cb17c38dc8.png"
+    },
+    "avatar_protoss_zealot.jpg?f=1": {
+      "level": 500,
+      "stat": "mm_protoss_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/85fba4327ffe9b6773957f2f4b7cdbd5.png"
+    },
+    "avatar_terran_battlecruiser.jpg": {
+      "level": 50000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/91c1e2b160bad7ffcac3a2a2b3eaef30.png"
+    },
+    "avatar_terran_battlecruiser.jpg?f=1": {
+      "level": 50000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/ba59cac45a5fd3c09bd1c2426af33843.png"
+    },
+    "avatar_terran_bomber.jpg": {
+      "level": 15000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/56a97b6a462bf89d71831642d0f72f20.png"
+    },
+    "avatar_terran_bomber.jpg?f=1": {
+      "level": 15000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/1bb2c670014a71827ca4581e460d4055.png"
+    },
+    "avatar_terran_dropship.jpg": {
+      "level": 2500,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/07fc3e5397f62dd5488026c077c67409.png"
+    },
+    "avatar_terran_dropship.jpg?f=1": {
+      "level": 2500,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/8e3d437aea525ad8b6c214663286d40f.png"
+    },
+    "avatar_terran_ghost.jpg": {
+      "level": 5000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/fc5a31374fd384ed7e6b2296067efcc5.png"
+    },
+    "avatar_terran_ghost.jpg?f=1": {
+      "level": 5000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/649602a298f245cd7081c933bbfd06ab.png"
+    },
+    "avatar_terran_goliath.jpg": {
+      "level": 25000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/b60e2c0517b1349e096f925aeb1ad590.png"
+    },
+    "avatar_terran_goliath.jpg?f=1": {
+      "level": 25000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/e99f93500b0bf7255083ae3d7dd75c6a.png"
+    },
+    "avatar_terran_marine.jpg": {
+      "level": 500,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/8c49f2317cebf70ce5f61550f26501b4.png"
+    },
+    "avatar_terran_marine.jpg?f=1": {
+      "level": 500,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/3f910f07d245e6ebfc4ca21384986e6d.png"
+    },
+    "avatar_terran_medic.jpg": {
+      "level": 10000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/9915f7f503e0116733f348dcca90f61d.png"
+    },
+    "avatar_terran_medic.jpg?f=1": {
+      "level": 10000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/7cacf56511b13dbf608147c035fcce19.png"
+    },
+    "avatar_terran_spidermine.jpg": {
+      "level": 250,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/7e42adeb13d2e9df5193bcfcbd3195cc.png"
+    },
+    "avatar_terran_spidermine.jpg?f=1": {
+      "level": 250,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/dd50373319a85fea011983767674cb75.png"
+    },
+    "avatar_terran_vulture.jpg": {
+      "level": 1000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/31b81ea790b71db84b1e4bab49a57720.png"
+    },
+    "avatar_terran_vulture.jpg?f=1": {
+      "level": 1000,
+      "stat": "mm_terran_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/efb9ffcb472f7ee25c53730ef3281d1c.png"
+    },
+    "avatar_zerg_devourer.jpg": {
+      "level": 5000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/f358977c6cb7489dc41b1de4addf5cd1.png"
+    },
+    "avatar_zerg_devourer.jpg?f=1": {
+      "level": 5000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/5be3c4513b6a3b25aca6d9f5dfb9b2c4.png"
+    },
+    "avatar_zerg_guardian.jpg": {
+      "level": 10000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/3c88d48d97694527a53df1c70a2480aa.png"
+    },
+    "avatar_zerg_guardian.jpg?f=1": {
+      "level": 10000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/c6a49c908fe3b7928cf111103f63a05f.png"
+    },
+    "avatar_zerg_hydralisk.jpg": {
+      "level": 1000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/3a85084b4c09b8381704941ea7ca3ea3.png"
+    },
+    "avatar_zerg_hydralisk.jpg?f=1": {
+      "level": 1000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/7a94bedd980be37dfbf13404ceff03bc.png"
+    },
+    "avatar_zerg_lurker.jpg": {
+      "level": 15000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/a4ead4677341b0e0b7d4d7714466b07e.png"
+    },
+    "avatar_zerg_lurker.jpg?f=1": {
+      "level": 15000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/7543096596cee23eed6159dd1b308463.png"
+    },
+    "avatar_zerg_mutalisk.jpg": {
+      "level": 2500,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/93f4430c907e7e2c90af548dcca2c9a3.png"
+    },
+    "avatar_zerg_mutalisk.jpg?f=1": {
+      "level": 2500,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/19dadf69e02d71f1d2a07f2d7f4dde39.png"
+    },
+    "avatar_zerg_overlord.jpg": {
+      "level": 250,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/ea2a8f38cb465e237126947632d76b5c.png"
+    },
+    "avatar_zerg_overlord.jpg?f=1": {
+      "level": 250,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/139b48f9b628b0585f34153a07647189.png"
+    },
+    "avatar_zerg_queen.jpg": {
+      "level": 25000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/08d99d3f010087e86f374c7eb69f62b9.png"
+    },
+    "avatar_zerg_queen.jpg?f=1": {
+      "level": 25000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/65a80cecfdc3d9b07fe28087d69ecbe6.png"
+    },
+    "avatar_zerg_ultralisk.jpg": {
+      "level": 50000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/34b083d5b2d61299abf343d643b1ecca.png"
+    },
+    "avatar_zerg_ultralisk.jpg?f=1": {
+      "level": 50000,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/3fa83c7f32fc3e6962481401e20a641b.png"
+    },
+    "avatar_zerg_zergling.jpg": {
+      "level": 500,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/580e4f797aacffcf5cda5e3ec0bfbaee.png"
+    },
+    "avatar_zerg_zergling.jpg?f=1": {
+      "level": 500,
+      "stat": "mm_zerg_wins",
+      "url": "https://d8un0y0mnd29o.cloudfront.net/avatar-icons/S1/cdd9f2316af2e5dc091a29e9275b47ac.png"
+    }
+  },
+  "avatars_stats": {
+    "mm_protoss_wins": { "bonus": 0, "normal": 0, "total": 0 },
+    "mm_terran_wins": { "bonus": 0, "normal": 0, "total": 0 },
+    "mm_zerg_wins": { "bonus": 0, "normal": 0, "total": 0 }
+  },
+  "maps": [],
+  "matchmaked_season_buckets": {
+    "12": [0, 1163, 1397, 1561, 1742, 2028, 2244, 9999]
+  },
+  "player_stats": [],
+  "players": {
+    "106009855": {
+      "aurora_id": 1794270,
+      "benefactor_id": "0",
+      "game_info": {
+        "attributes": {
+          "closed_slots": "0",
+          "flags": "34",
+          "game_speed": "6",
+          "host_name": "bob9",
+          "is_replay": "false",
+          "map_crc": "1427268323",
+          "map_file_name": "(4)Polypoid 1.65.scx",
+          "map_file_size": "109564",
+          "map_height": "128",
+          "map_md5": "3C7671368F9267E1EA07E56B7517E13A",
+          "map_name": "\u0007Polyp\u0006oid \u00061\u0003.65",
+          "map_tile_set": "4",
+          "map_width": "128",
+          "net_turn_rate": "16",
+          "observers_current": "0",
+          "observers_max": "0",
+          "players_ai": "0",
+          "players_current": "2",
+          "players_max": "2",
+          "proxy": "false",
+          "rank": "3",
+          "save_game_id": "0"
+        },
+        "id": "1045576024",
+        "name": "CHYMpmCQX^HI"
+      },
+      "game_result": {
+        "": {
+          "attributes": { "gPlayerData_idx": "7", "left": "0", "type": "none" },
+          "is_computer": false,
+          "result": "Undecided"
+        },
+        "FRObob": {
+          "attributes": {
+            "gPlayerData_idx": "3",
+            "left": "1",
+            "race": "terran",
+            "team": "2",
+            "type": "player"
+          },
+          "is_computer": false,
+          "result": "Loss"
+        },
+        "bob9": {
+          "attributes": {
+            "gPlayerData_idx": "0",
+            "left": "0",
+            "race": "zerg",
+            "team": "1",
+            "type": "player"
+          },
+          "is_computer": false,
+          "result": "Win"
+        }
+      },
+      "gateway_id": 10,
+      "info_attributes": {
+        "_default_region": "ORD",
+        "_email": "bob@GMAIL.COM",
+        "connection_info": "CHYMpmCQX^HI",
+        "map": "3c7671368f9267e1ea07e56b7517e13a",
+        "map_selection": "8c28e5c07d2ae6c7318bdb44980afa36",
+        "player_battle_tag": "bob#1840",
+        "player_legacy_gateway_id": "10",
+        "player_legacy_toon_name": "bob9",
+        "player_region": "US",
+        "player_routing_via_proxy_server": "false",
+        "race": "Zerg"
+      },
+      "matching_attributes": { "net_version": "233" },
+      "name": "bob9",
+      "score": {
+        "base": 1284,
+        "bucket_new": 2,
+        "bucket_old": 2,
+        "current_stat_bucket": 3,
+        "current_stat_losses": 308,
+        "current_stat_wins": 296,
+        "delta": 19,
+        "season_id": 12,
+        "win_streak": 0
+      }
+    },
+    "51337919": {
+      "aurora_id": 378001376,
+      "benefactor_id": "0",
+      "game_info": {
+        "attributes": {
+          "closed_slots": "0",
+          "flags": "34",
+          "game_speed": "6",
+          "host_name": "bob9",
+          "is_replay": "false",
+          "map_crc": "1427268323",
+          "map_file_name": "(4)Polypoid 1.65.scx",
+          "map_file_size": "109564",
+          "map_height": "128",
+          "map_md5": "3C7671368F9267E1EA07E56B7517E13A",
+          "map_name": "\u0007Polyp\u0006oid \u00061\u0003.65",
+          "map_tile_set": "4",
+          "map_width": "128",
+          "net_turn_rate": "16",
+          "observers_current": "0",
+          "observers_max": "0",
+          "players_ai": "0",
+          "players_current": "1",
+          "players_max": "2",
+          "proxy": "false",
+          "rank": "3",
+          "save_game_id": "0"
+        },
+        "id": "1045576024",
+        "name": "CHYMpmCQX^HI"
+      },
+      "game_result": {
+        "": {
+          "attributes": { "gPlayerData_idx": "7", "left": "0", "type": "none" },
+          "is_computer": false,
+          "result": "Undecided"
+        },
+        "FRObob": {
+          "attributes": {
+            "gPlayerData_idx": "3",
+            "left": "0",
+            "race": "terran",
+            "team": "2",
+            "type": "player"
+          },
+          "is_computer": false,
+          "result": "Loss"
+        },
+        "bob9": {
+          "attributes": {
+            "gPlayerData_idx": "0",
+            "left": "0",
+            "race": "zerg",
+            "team": "1",
+            "type": "player"
+          },
+          "is_computer": false,
+          "result": "Win"
+        }
+      },
+      "gateway_id": 10,
+      "info_attributes": {
+        "_default_region": "ORD",
+        "_email": "BRANDON-102030@HOTMAIL.COM",
+        "connection_info": "l^wFdbGfArCK",
+        "map": "3c7671368f9267e1ea07e56b7517e13a",
+        "player_battle_tag": "FRObob#11676",
+        "player_legacy_gateway_id": "10",
+        "player_legacy_toon_name": "FRObob",
+        "player_region": "US",
+        "player_routing_via_proxy_server": "false",
+        "race": "Terran"
+      },
+      "matching_attributes": { "net_version": "233" },
+      "name": "FRObob",
+      "score": {
+        "base": 1379,
+        "bucket_new": 2,
+        "bucket_old": 2,
+        "current_stat_bucket": 2,
+        "current_stat_losses": 80,
+        "current_stat_wins": 73,
+        "delta": -26,
+        "season_id": 12,
+        "win_streak": 0
+      }
+    }
+  },
+  "replays": [
+    {
+      "attributes": {
+        "game_creator": "bob9",
+        "game_id": "0",
+        "game_name": "CHYMpmCQX^HI",
+        "game_save_id": "0",
+        "game_speed": "6",
+        "game_sub_type": "1",
+        "game_type": "15",
+        "map_era": "4",
+        "map_height": "128",
+        "map_title": "\u0007Polyp\u0006oid \u00061\u0003.65",
+        "map_width": "128",
+        "replay_description": "",
+        "replay_humans": "2",
+        "replay_map_number": "0",
+        "replay_max_players": "8",
+        "replay_min_players": "1",
+        "replay_opponents": "0",
+        "replay_player_names": "bob9,FRObob",
+        "replay_player_races": "Z,T",
+        "replay_player_types": "1,1",
+        "replay_result": "1"
+      },
+      "create_time": 1675174886,
+      "link": "",
+      "md5": "a99791753017beb2cb66b298e1f94cfe",
+      "url": "https://s3-us-west-1.amazonaws.com/user-uploads-prod.classic.blizzard.com/S1-replays/1794270/106009855/a99791753017beb2cb66b298e1f94cfe.replay"
+    },
+    {
+      "attributes": {
+        "game_creator": "bob9",
+        "game_id": "1",
+        "game_name": "CHYMpmCQX^HI",
+        "game_save_id": "0",
+        "game_speed": "6",
+        "game_sub_type": "1",
+        "game_type": "15",
+        "map_era": "4",
+        "map_height": "128",
+        "map_title": "\u0007Polyp\u0006oid \u00061\u0003.65",
+        "map_width": "128",
+        "replay_description": "",
+        "replay_humans": "2",
+        "replay_map_number": "0",
+        "replay_max_players": "8",
+        "replay_min_players": "1",
+        "replay_opponents": "0",
+        "replay_player_names": "bob9,FRObob",
+        "replay_player_races": "Z,T",
+        "replay_player_types": "1,1",
+        "replay_result": "2"
+      },
+      "create_time": 1675174861,
+      "link": "",
+      "md5": "120398123098123908",
+      "url": "https://s3-us-west-1.amazonaws.com/user-uploads-prod.classic.blizzard.com/S1-replays/378001376/51337919/120398123098123908.replay"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "10": {
+    "is_official": true,
+    "name": "U.S. West",
+    "online_users": 1077,
+    "region": "usw"
+  },
+  "11": {
+    "is_official": true,
+    "name": "U.S. East",
+    "online_users": 113,
+    "region": "use"
+  },
+  "20": {
+    "is_official": true,
+    "name": "Europe",
+    "online_users": 420,
+    "region": "eu"
+  },
+  "30": {
+    "is_official": true,
+    "name": "Korea",
+    "online_users": 6037,
+    "region": "kr"
+  },
+  "45": {
+    "is_official": true,
+    "name": "Asia",
+    "online_users": 164,
+    "region": "asia"
+  }
+}

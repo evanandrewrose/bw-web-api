@@ -1,0 +1,377 @@
+{
+  "current_season": 13,
+  "map_stat": {
+    "1": {
+      "11": {
+        "1519C49FF7BA9CED4F80BB95744B3913": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 817290,
+            "total_global_wins": 422775,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 100220,
+            "total_global_wins": 50954,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 365534,
+            "total_global_wins": 168614,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 1,
+            "total_global_games": 445909,
+            "total_global_wins": 221963,
+            "total_wins": 0
+          }
+        }
+      },
+      "12": {
+        "3C7671368F9267E1EA07E56B7517E13A": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 1607968,
+            "total_global_wins": 802930,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 177294,
+            "total_global_wins": 91979,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 1058900,
+            "total_global_wins": 522688,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 22,
+            "total_global_games": 1068264,
+            "total_global_wins": 538616,
+            "total_wins": 11
+          }
+        },
+        "5168494D085086DDE9ED3D0132A06D59": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 431736,
+            "total_global_wins": 221742,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 42952,
+            "total_global_wins": 21703,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 203536,
+            "total_global_wins": 95546,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 15,
+            "total_global_games": 208944,
+            "total_global_wins": 104593,
+            "total_wins": 6
+          }
+        },
+        "6CD4728A32ECD7485C3B1592A84C8077": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 144329,
+            "total_global_wins": 73651,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 22229,
+            "total_global_wins": 11476,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 94884,
+            "total_global_wins": 44802,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 2,
+            "total_global_games": 93002,
+            "total_global_wins": 47293,
+            "total_wins": 0
+          }
+        },
+        "7776542CC2CF2038417CD9919F5C35F0": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 957031,
+            "total_global_wins": 489857,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 96142,
+            "total_global_wins": 47480,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 449773,
+            "total_global_wins": 215493,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 11,
+            "total_global_games": 500562,
+            "total_global_wins": 248924,
+            "total_wins": 1
+          }
+        },
+        "8C28E5C07D2AE6C7318BDB44980AFA36": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 659236,
+            "total_global_wins": 328808,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 83774,
+            "total_global_wins": 43338,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 455998,
+            "total_global_wins": 220048,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 3,
+            "total_global_games": 492330,
+            "total_global_wins": 253475,
+            "total_wins": 0
+          }
+        },
+        "A45C0223C31CCAD0B18A8380432776D8": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 866562,
+            "total_global_wins": 429542,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 105766,
+            "total_global_wins": 54697,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 676365,
+            "total_global_wins": 337209,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 14,
+            "total_global_games": 671643,
+            "total_global_wins": 338720,
+            "total_wins": 5
+          }
+        },
+        "E666DB327C0261E6667DB1B79F677654": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 1404288,
+            "total_global_wins": 703528,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 161589,
+            "total_global_wins": 83264,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 941124,
+            "total_global_wins": 467545,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 23,
+            "total_global_games": 900383,
+            "total_global_wins": 449355,
+            "total_wins": 12
+          }
+        }
+      },
+      "13": {
+        "3C7671368F9267E1EA07E56B7517E13A": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 559226,
+            "total_global_wins": 279961,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 62228,
+            "total_global_wins": 32287,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 376706,
+            "total_global_wins": 184760,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 195,
+            "total_global_games": 362552,
+            "total_global_wins": 183348,
+            "total_wins": 93
+          }
+        },
+        "5168494D085086DDE9ED3D0132A06D59": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 140801,
+            "total_global_wins": 72322,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 14071,
+            "total_global_wins": 6837,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 66383,
+            "total_global_wins": 31182,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 73,
+            "total_global_games": 65497,
+            "total_global_wins": 33035,
+            "total_wins": 35
+          }
+        },
+        "7776542CC2CF2038417CD9919F5C35F0": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 321896,
+            "total_global_wins": 164801,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 31048,
+            "total_global_wins": 15323,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 160680,
+            "total_global_wins": 76959,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 105,
+            "total_global_games": 166446,
+            "total_global_wins": 82952,
+            "total_wins": 58
+          }
+        },
+        "8C28E5C07D2AE6C7318BDB44980AFA36": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 249176,
+            "total_global_wins": 124306,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 30551,
+            "total_global_wins": 15779,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 178795,
+            "total_global_wins": 86526,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 20,
+            "total_global_games": 185744,
+            "total_global_wins": 95522,
+            "total_wins": 7
+          }
+        },
+        "A45C0223C31CCAD0B18A8380432776D8": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 346511,
+            "total_global_wins": 171290,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 41390,
+            "total_global_wins": 21365,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 277525,
+            "total_global_wins": 138497,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 38,
+            "total_global_games": 259932,
+            "total_global_wins": 131527,
+            "total_wins": 18
+          }
+        },
+        "E666DB327C0261E6667DB1B79F677654": {
+          "Protoss": {
+            "total_games": 0,
+            "total_global_games": 484765,
+            "total_global_wins": 243228,
+            "total_wins": 0
+          },
+          "Random": {
+            "total_games": 0,
+            "total_global_games": 55970,
+            "total_global_wins": 28547,
+            "total_wins": 0
+          },
+          "Terran": {
+            "total_games": 0,
+            "total_global_games": 331568,
+            "total_global_wins": 163850,
+            "total_wins": 0
+          },
+          "Zerg": {
+            "total_games": 170,
+            "total_global_games": 301481,
+            "total_global_wins": 151267,
+            "total_wins": 83
+          }
+        }
+      }
+    }
+  }
+}

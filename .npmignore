@@ -1,0 +1,12 @@
+.eslintignore                 
+.eslintrc                     
+.lintstagedrc                 
+.prettierignore               
+.vscode/settings.json         
+dts-bundle-generator.config.ts
+jest.config.ts                
+*.tgz           
+src/
+test/
+tsconfig.json                 
+vite.config.ts                

@@ -1,0 +1,312 @@
+{
+  "account_flags": "sc-carbot,hd,scr-s8-rank-u,sc-presale,scr-s10-rank-u,sc-goty-2018",
+  "aurora_id": 123123,
+  "battle_tag": "bob",
+  "country_code": "USA",
+  "matchmaked_current_season": 13,
+  "matchmaked_current_season_buckets": [
+    0, 1163, 1397, 1561, 1742, 2028, 2244, 9999
+  ],
+  "matchmaked_stats": [
+    {
+      "benefactor_id": "0",
+      "bucket": 3,
+      "disconnects": 3,
+      "game_mode_id": 1,
+      "highest_points": 13600,
+      "highest_rating": 1653,
+      "loss_streak": 1,
+      "losses": 308,
+      "points": 12000,
+      "rating": 1471,
+      "season_id": 13,
+      "toon": "bob9",
+      "toon_guid": 3,
+      "win_streak": 0,
+      "wins": 296
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 3,
+      "disconnects": 1,
+      "game_mode_id": 1,
+      "highest_points": 3200,
+      "highest_rating": 1527,
+      "loss_streak": 3,
+      "losses": 8,
+      "points": 2600,
+      "rating": 1478,
+      "season_id": 13,
+      "toon": "kekekekekee",
+      "toon_guid": 7,
+      "win_streak": 0,
+      "wins": 10
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 0,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 200,
+      "highest_rating": 1479,
+      "loss_streak": 1,
+      "losses": 2,
+      "points": 200,
+      "rating": 0,
+      "season_id": 13,
+      "toon": "heheheheheeh",
+      "toon_guid": 6,
+      "win_streak": 0,
+      "wins": 1
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 4,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 13600,
+      "highest_rating": 1691,
+      "loss_streak": 0,
+      "losses": 66,
+      "points": 13600,
+      "rating": 1685,
+      "season_id": 13,
+      "toon": "bob",
+      "toon_guid": 2,
+      "win_streak": 1,
+      "wins": 79
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 3,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 400,
+      "highest_rating": 1464,
+      "loss_streak": 2,
+      "losses": 5,
+      "points": 400,
+      "rating": 1435,
+      "season_id": 13,
+      "toon": "bobzy",
+      "toon_guid": 4,
+      "win_streak": 0,
+      "wins": 2
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 2,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 0,
+      "highest_rating": 1490,
+      "loss_streak": 5,
+      "losses": 5,
+      "points": 0,
+      "rating": 1190,
+      "season_id": 13,
+      "toon": "weeeeeeeeeeeeeeeeeeeee",
+      "toon_guid": 5,
+      "win_streak": 0,
+      "wins": 0
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 2,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 6800,
+      "highest_rating": 1729,
+      "loss_streak": 4,
+      "losses": 68,
+      "points": 5000,
+      "rating": 1273,
+      "season_id": 12,
+      "toon": "bob9",
+      "toon_guid": 3,
+      "win_streak": 0,
+      "wins": 46
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 3,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 1400,
+      "highest_rating": 1500,
+      "loss_streak": 0,
+      "losses": 3,
+      "points": 1400,
+      "rating": 1486,
+      "season_id": 12,
+      "toon": "weeeeeeeeeeeeeeeeeeeee",
+      "toon_guid": 5,
+      "win_streak": 3,
+      "wins": 5
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 0,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 0,
+      "highest_rating": 1468,
+      "loss_streak": 1,
+      "losses": 1,
+      "points": 0,
+      "rating": 0,
+      "season_id": 12,
+      "toon": "bobzy",
+      "toon_guid": 4,
+      "win_streak": 0,
+      "wins": 0
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 0,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 0,
+      "highest_rating": 1472,
+      "loss_streak": 1,
+      "losses": 1,
+      "points": 0,
+      "rating": 0,
+      "season_id": 12,
+      "toon": "deqsi",
+      "toon_guid": 1,
+      "win_streak": 0,
+      "wins": 0
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 0,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 200,
+      "highest_rating": 1546,
+      "loss_streak": 2,
+      "losses": 2,
+      "points": 200,
+      "rating": 0,
+      "season_id": 11,
+      "toon": "bob",
+      "toon_guid": 2,
+      "win_streak": 0,
+      "wins": 1
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 0,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 0,
+      "highest_rating": 1530,
+      "loss_streak": 1,
+      "losses": 1,
+      "points": 0,
+      "rating": 0,
+      "season_id": 11,
+      "toon": "bob9",
+      "toon_guid": 3,
+      "win_streak": 0,
+      "wins": 0
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 4,
+      "disconnects": 1,
+      "game_mode_id": 1,
+      "highest_points": 14200,
+      "highest_rating": 1620,
+      "loss_streak": 0,
+      "losses": 126,
+      "points": 14200,
+      "rating": 1620,
+      "season_id": 9,
+      "toon": "bob",
+      "toon_guid": 2,
+      "win_streak": 7,
+      "wins": 132
+    },
+    {
+      "benefactor_id": "0",
+      "bucket": 0,
+      "disconnects": 0,
+      "game_mode_id": 1,
+      "highest_points": 0,
+      "highest_rating": 1466,
+      "loss_streak": 1,
+      "losses": 1,
+      "points": 0,
+      "rating": 0,
+      "season_id": 1,
+      "toon": "bob",
+      "toon_guid": 2,
+      "win_streak": 0,
+      "wins": 0
+    }
+  ],
+  "program_id": "S1",
+  "toon_guid_by_gateway": {
+    "10": {
+      "deqsi": 1,
+      "bob9": 3,
+      "heheheheheeh": 6
+    },
+    "11": {
+      "bob": 2
+    },
+    "20": {
+      "bobzy": 4
+    },
+    "30": {
+      "weeeeeeeeeeeeeeeeeeeee": 5,
+      "kekekekekee": 7
+    }
+  },
+  "toons": [
+    {
+      "games_last_week": 0,
+      "gateway_id": 10,
+      "guid": 1,
+      "toon": "deqsi"
+    },
+    {
+      "games_last_week": 0,
+      "gateway_id": 11,
+      "guid": 2,
+      "toon": "bob"
+    },
+    {
+      "games_last_week": 89,
+      "gateway_id": 10,
+      "guid": 3,
+      "toon": "bob9"
+    },
+    {
+      "games_last_week": 0,
+      "gateway_id": 20,
+      "guid": 4,
+      "toon": "bobzy"
+    },
+    {
+      "games_last_week": 0,
+      "gateway_id": 30,
+      "guid": 5,
+      "toon": "weeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+      "games_last_week": 0,
+      "gateway_id": 10,
+      "guid": 6,
+      "toon": "heheheheheeh"
+    },
+    {
+      "games_last_week": 4,
+      "gateway_id": 30,
+      "guid": 7,
+      "toon": "kekekekekee"
+    }
+  ]
+}
