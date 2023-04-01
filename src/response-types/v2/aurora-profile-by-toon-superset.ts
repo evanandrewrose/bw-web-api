@@ -190,17 +190,19 @@ export const AuroraProfileByToonSupersetResponseSchema = z.object({
       wins: z.number(),
     })
   ),
-  profiles: z.array(
-    z.object({
-      avatar_id: z.string(),
-      description: z.string(),
-      private: z.boolean(),
-      show_avatar_frame: z.boolean(),
-      title: z.string(),
-      toon: z.string(),
-      toon_guid: z.number(),
-    })
-  ),
+  profiles: z
+    .array(
+      z.object({
+        avatar_id: z.string(),
+        description: z.string(),
+        private: z.boolean(),
+        show_avatar_frame: z.boolean(),
+        title: z.string(),
+        toon: z.string(),
+        toon_guid: z.number(),
+      })
+    )
+    .nullable(),
   program_id: z.string(),
   replays: z.array(
     z.object({

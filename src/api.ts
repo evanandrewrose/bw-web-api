@@ -13,17 +13,21 @@ import {
   GatewayResponseSchema,
 } from "@/response-types/v1/gateway";
 import {
+  LeaderboardResponse,
+  LeaderboardResponseSchema,
+} from "@/response-types/v1/leaderboard";
+import {
+  LeaderboardEntityResponse,
   LeaderboardEntityResponseSchema,
-  LeaderboardEntityResponse as LeaderboardEntityResponse,
 } from "@/response-types/v1/leaderboard-entity";
 import {
   LeaderboardNameSearchResponse,
   LeaderboardNameSearchResponseSchema,
 } from "@/response-types/v1/leaderboard-name-search";
 import {
-  LeaderboardResponse,
-  LeaderboardResponseSchema,
-} from "@/response-types/v1/leaderboard";
+  LeaderboardRankByToonResponse,
+  LeaderboardRankByToonResponseSchema,
+} from "@/response-types/v1/leaderboard-rank-by-toon";
 import {
   MapStatsByToonResponse,
   MapStatsByToonResponseSchema,
@@ -53,10 +57,6 @@ import {
   AuroraProfileByToonScrToonInfoResponseSchema,
 } from "@/response-types/v2/aurora-profile-by-toon-scr-toon-info";
 import { InvalidInputError } from "./errors";
-import {
-  LeaderboardRankByToonResponse,
-  LeaderboardRankByToonResponseSchema,
-} from "@/response-types/v1/leaderboard-rank-by-toon";
 
 export type AuroraProfileByToonV2FieldMask =
   | "scr_mmgameloading"
@@ -145,11 +145,13 @@ export class SCApi {
     toon: string,
     gateway: number,
     gameMode: number,
-    season: number
+    season: number,
+    offset = 0,
+    limit = 15
   ): Promise<MatchMakerGameInfoByToonResponse> =>
     await this.schemaFetch(
       MatchMakerGameInfoByToonResponseSchema,
-      `v1/matchmaker-gameinfo-by-toon/${toon}/${gateway}/${gameMode}/${season}`
+      `v1/matchmaker-gameinfo-by-toon/${toon}/${gateway}/${gameMode}/${season}?offset=${offset}&limit=${limit}`
     );
 
   matchMakerGameInfoPlayerInfo = async (
