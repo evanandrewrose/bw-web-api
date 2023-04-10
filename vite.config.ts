@@ -1,6 +1,6 @@
 import path from "path";
+import dts from 'vite-plugin-dts';
 import { defineConfig } from "vitest/config";
-import dts from 'vite-plugin-dts'
 
 module.exports = defineConfig({
   base: "./",
@@ -16,6 +16,7 @@ module.exports = defineConfig({
       name: 'BwWebApi',
       fileName: 'bw-web-api',
     },
+    sourcemap: true,
   },
   test: {}
 });

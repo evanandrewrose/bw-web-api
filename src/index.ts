@@ -1,5 +1,5 @@
 export * from "@/api";
-export * from "@/consts";
+export * from "@/bw-connection";
 export * from "@/errors";
 export * from "@/response-types/v1/aurora-profile-by-toon";
 export * from "@/response-types/v1/classic-files-global-maps-1v1";

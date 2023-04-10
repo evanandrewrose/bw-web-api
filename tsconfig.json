@@ -26,7 +26,8 @@
     "forceConsistentCasingInFileNames": true,
     "types": [
       "node"
-    ]
+    ],
+    "inlineSources": true
   },
   "include": [
     "src",

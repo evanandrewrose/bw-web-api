@@ -1,6 +1,7 @@
 import { SCApi } from "@/api";
-import { vi, describe, it } from "vitest";
+import { BroodWarConnection } from "@/bw-connection";
 import { readFile } from "fs/promises";
+import { assert, describe, it, vi } from "vitest";
 
 vi.stubGlobal("fetch", async (path: string) => ({
   json: async () => {
@@ -11,7 +12,7 @@ vi.stubGlobal("fetch", async (path: string) => ({
 }));
 
 describe("SCApi", () => {
-  const api = new SCApi("");
+  const api = new SCApi(new BroodWarConnection(""));
 
   it("can fetch and parse the v1 aurora profile by toon API response", async () => {
     await api.auroraProfileByToon("bob", 10);
@@ -42,7 +43,8 @@ describe("SCApi", () => {
   });
 
   it("can fetch and parse the map stats by toon API response", async () => {
-    await api.mapStatsByToon("bob", 10);
+    const stats = await api.mapStatsByToon("bob", 10);
+    assert(stats.map_stat);
   });
 
   it("can fetch and parse the match maker game info by toon API response", async () => {
@@ -54,18 +56,18 @@ describe("SCApi", () => {
   });
 
   it("can fetch and parse the aurora profile by toon with scr_mmgameloading mask API response", async () => {
-    await api.auroraProfileByToonv2("bob", 10, "scr_mmgameloading");
+    await api.auroraProfileByToonV2("bob", 10, "scr_mmgameloading");
   });
 
   it("can fetch and parse the aurora profile by toon with scr_mmtooninfo mask API response", async () => {
-    await api.auroraProfileByToonv2("bob", 10, "scr_mmtooninfo");
+    await api.auroraProfileByToonV2("bob", 10, "scr_mmtooninfo");
   });
 
   it("can fetch and parse the aurora profile by toon with scr_profile mask API response", async () => {
-    await api.auroraProfileByToonv2("bob", 10, "scr_profile");
+    await api.auroraProfileByToonV2("bob", 10, "scr_profile");
   });
 
   it("can fetch and parse the aurora profile by toon with scr_tooninfo mask API response", async () => {
-    await api.auroraProfileByToonv2("bob", 10, "scr_tooninfo");
+    await api.auroraProfileByToonV2("bob", 10, "scr_tooninfo");
   });
 });
