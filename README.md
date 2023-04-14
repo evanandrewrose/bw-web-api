@@ -34,7 +34,7 @@ import { SCApi, BroodWarConnection } from 'bw-web-api';
 
 const sc = new SCApi(new BroodWarConnection(`localhost:50250`));
 
-const profile = auroraProfileByToon('By.SnOw1', 30);
+const profile = sc.auroraProfileByToon('By.SnOw1', 30);
 ```
 
 # StarCraft Port
