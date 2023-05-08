@@ -138,7 +138,7 @@ export class SCApi implements ISCApi {
   ): Promise<AuroraProfileByToonResponse> =>
     await this.schemaFetch(
       AuroraProfileByToonResponseSchema,
-      `web-api/v1/aurora-profile-by-toon/${toon}/${gateway}`
+      `web-api/v1/aurora-profile-by-toon/${encodeURIComponent(toon)}/${gateway}`
     );
 
   classicFilesGlobalMaps1v1 =
@@ -170,7 +170,7 @@ export class SCApi implements ISCApi {
   ): Promise<LeaderboardNameSearchResponse> =>
     await this.schemaFetch(
       LeaderboardNameSearchResponseSchema,
-      `web-api/v1/leaderboard-name-search/${toon}`
+      `web-api/v1/leaderboard-name-search/${encodeURIComponent(toon)}`
     );
 
   leaderboardRankByToon = async (
@@ -180,7 +180,9 @@ export class SCApi implements ISCApi {
   ): Promise<LeaderboardRankByToonResponse> =>
     await this.schemaFetch(
       LeaderboardRankByToonResponseSchema,
-      `web-api/v1/leaderboard-rank-by-toon/${ladder}/${toon}/${gateway}`
+      `web-api/v1/leaderboard-rank-by-toon/${ladder}/${encodeURIComponent(
+        toon
+      )}/${gateway}`
     );
 
   leaderboard = async (): Promise<LeaderboardResponse> =>
@@ -192,7 +194,7 @@ export class SCApi implements ISCApi {
   ): Promise<MapStatsByToonResponse> =>
     await this.schemaFetch(
       MapStatsByToonResponseSchema,
-      `web-api/v1/map-stats-by-toon/${toon}/${gateway}`
+      `web-api/v1/map-stats-by-toon/${encodeURIComponent(toon)}/${gateway}`
     );
 
   matchMakerGameInfoByToon = async (
@@ -205,7 +207,9 @@ export class SCApi implements ISCApi {
   ): Promise<MatchMakerGameInfoByToonResponse> =>
     await this.schemaFetch(
       MatchMakerGameInfoByToonResponseSchema,
-      `web-api/v1/matchmaker-gameinfo-by-toon/${toon}/${gateway}/${gameMode}/${season}?offset=${offset}&limit=${limit}`
+      `web-api/v1/matchmaker-gameinfo-by-toon/${encodeURIComponent(
+        toon
+      )}/${gateway}/${gameMode}/${season}?offset=${offset}&limit=${limit}`
     );
 
   matchMakerGameInfoPlayerInfo = async (
@@ -230,22 +234,30 @@ export class SCApi implements ISCApi {
       case "scr_mmgameloading":
         return await this.schemaFetch(
           AuroraProfileByToonScrMmGameLoadingResponseSchema,
-          `web-api/v2/aurora-profile-by-toon/${toon}/${gateway}?request_flags=${mask}`
+          `web-api/v2/aurora-profile-by-toon/${encodeURIComponent(
+            toon
+          )}/${gateway}?request_flags=${mask}`
         );
       case "scr_mmtooninfo":
         return await this.schemaFetch(
           AuroraProfileByToonScrMmToonInfoResponseSchema,
-          `web-api/v2/aurora-profile-by-toon/${toon}/${gateway}?request_flags=${mask}`
+          `web-api/v2/aurora-profile-by-toon/${encodeURIComponent(
+            toon
+          )}/${gateway}?request_flags=${mask}`
         );
       case "scr_profile":
         return await this.schemaFetch(
           AuroraProfileByToonScrProfileResponseSchema,
-          `web-api/v2/aurora-profile-by-toon/${toon}/${gateway}?request_flags=${mask}`
+          `web-api/v2/aurora-profile-by-toon/${encodeURIComponent(
+            toon
+          )}/${gateway}?request_flags=${mask}`
         );
       case "scr_tooninfo":
         return await this.schemaFetch(
           AuroraProfileByToonScrToonInfoResponseSchema,
-          `web-api/v2/aurora-profile-by-toon/${toon}/${gateway}?request_flags=${mask}`
+          `web-api/v2/aurora-profile-by-toon/${encodeURIComponent(
+            toon
+          )}/${gateway}?request_flags=${mask}`
         );
     }
   };
