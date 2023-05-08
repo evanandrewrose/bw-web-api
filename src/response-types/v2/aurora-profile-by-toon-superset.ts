@@ -416,7 +416,7 @@ export const AuroraProfileByToonSupersetNoResultResponseSchema = z.object({
 });
 
 export const AuroraProfileByToonSupersetResponseSchema = z.object({
-  account_flags: z.string(),
+  account_flags: z.string().optional(),
   aurora_id: z.number().nonnegative().int(),
   avatars: z.record(z.string(), z.string()),
   avatars_framed: z.record(
