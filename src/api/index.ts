@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import { BroodWarApiPath, BroodWarConnection } from "@/bw-connection";
+import { BroodWarApiPath, IBroodWarConnection } from "@/bw-connection";
 import {
   AuroraProfileByToonResponse,
   AuroraProfileByToonResponseSchema,
@@ -114,9 +114,9 @@ export interface ISCApi {
 }
 
 export class SCApi implements ISCApi {
-  constructor(private bwConnection: BroodWarConnection) {}
+  constructor(private bwConnection: IBroodWarConnection) {}
 
-  private schemaFetch = async <T extends z.Schema>(
+  schemaFetch = async <T extends z.Schema>(
     schema: T,
     path: BroodWarApiPath
   ): Promise<z.infer<T>> => {
