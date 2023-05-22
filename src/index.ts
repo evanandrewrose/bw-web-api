@@ -1,7 +1,6 @@
 export * from "@/api";
 export * from "@/bw-connection";
 export * from "@/errors";
-export * from "@/response-types/v1/aurora-profile-by-toon";
 export * from "@/response-types/v1/classic-files-global-maps-1v1";
 export * from "@/response-types/v1/gateway";
 export * from "@/response-types/v1/leaderboard";

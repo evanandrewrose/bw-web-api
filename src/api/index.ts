@@ -2,10 +2,6 @@ import { z } from "zod";
 
 import { BroodWarApiPath, IBroodWarConnection } from "@/bw-connection";
 import {
-  AuroraProfileByToonResponse,
-  AuroraProfileByToonResponseSchema,
-} from "@/response-types/v1/aurora-profile-by-toon";
-import {
   ClassicFilesGlobalMaps1v1Response,
   ClassicFilesGlobalMaps1v1ResponseSchema,
 } from "@/response-types/v1/classic-files-global-maps-1v1";
@@ -66,10 +62,6 @@ export type AuroraProfileByToonV2FieldMask =
   | "scr_profile";
 
 export interface ISCApi {
-  auroraProfileByToon: (
-    toon: string,
-    gateway: number
-  ) => Promise<AuroraProfileByToonResponse>;
   classicFilesGlobalMaps1v1: () => Promise<ClassicFilesGlobalMaps1v1Response>;
   gateway: () => Promise<GatewayResponse>;
   leaderboard: () => Promise<LeaderboardResponse>;
@@ -101,7 +93,7 @@ export interface ISCApi {
   matchMakerGameInfoPlayerInfo: (
     matchId: string
   ) => Promise<MatchMakerGameInfoPlayerInfoResponse>;
-  auroraProfileByToonV2: (
+  auroraProfileByToon: (
     toon: string,
     gateway: number,
     mask: AuroraProfileByToonV2FieldMask
@@ -120,26 +112,15 @@ export class SCApi implements ISCApi {
     schema: T,
     path: BroodWarApiPath
   ): Promise<z.infer<T>> => {
-    const fetchResult = await this.bwConnection.fetch(path);
+    const text = await this.bwConnection.fetch(path);
 
     try {
-      const json = await fetchResult.json();
-      return schema.parse(json);
+      return schema.parse(JSON.parse(text));
     } catch (e) {
       console.error(`SCApi.schemaFetch error for path ${path}`);
       throw e;
     }
   };
-
-  // @deprecated as of 2023-03-20, no useful data is returned from here
-  auroraProfileByToon = async (
-    toon: string,
-    gateway: number
-  ): Promise<AuroraProfileByToonResponse> =>
-    await this.schemaFetch(
-      AuroraProfileByToonResponseSchema,
-      `web-api/v1/aurora-profile-by-toon/${encodeURIComponent(toon)}/${gateway}`
-    );
 
   classicFilesGlobalMaps1v1 =
     async (): Promise<ClassicFilesGlobalMaps1v1Response> =>
@@ -220,7 +201,7 @@ export class SCApi implements ISCApi {
       `web-api/v1/matchmaker-gameinfo-playerinfo/${matchId}`
     );
 
-  auroraProfileByToonV2 = async (
+  auroraProfileByToon = async (
     toon: string,
     gateway: number,
     mask: AuroraProfileByToonV2FieldMask

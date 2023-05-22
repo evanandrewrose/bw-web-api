@@ -4,19 +4,15 @@ import { readFile } from "fs/promises";
 import { assert, describe, it, vi } from "vitest";
 
 vi.stubGlobal("fetch", async (path: string) => ({
-  json: async () => {
+  text: async () => {
     const response = await readFile(`./test/data/${path}.json`, "utf8");
 
-    return JSON.parse(response);
+    return response;
   },
 }));
 
 describe("SCApi", () => {
   const api = new SCApi(new BroodWarConnection(""));
-
-  it("can fetch and parse the v1 aurora profile by toon API response", async () => {
-    await api.auroraProfileByToon("bob", 10);
-  });
 
   it("can fetch and parse the classic files global maps 1v1 API response", async () => {
     await api.classicFilesGlobalMaps1v1();
@@ -56,18 +52,18 @@ describe("SCApi", () => {
   });
 
   it("can fetch and parse the aurora profile by toon with scr_mmgameloading mask API response", async () => {
-    await api.auroraProfileByToonV2("bob", 10, "scr_mmgameloading");
+    await api.auroraProfileByToon("bob", 10, "scr_mmgameloading");
   });
 
   it("can fetch and parse the aurora profile by toon with scr_mmtooninfo mask API response", async () => {
-    await api.auroraProfileByToonV2("bob", 10, "scr_mmtooninfo");
+    await api.auroraProfileByToon("bob", 10, "scr_mmtooninfo");
   });
 
   it("can fetch and parse the aurora profile by toon with scr_profile mask API response", async () => {
-    await api.auroraProfileByToonV2("bob", 10, "scr_profile");
+    await api.auroraProfileByToon("bob", 10, "scr_profile");
   });
 
   it("can fetch and parse the aurora profile by toon with scr_tooninfo mask API response", async () => {
-    await api.auroraProfileByToonV2("bob", 10, "scr_tooninfo");
+    await api.auroraProfileByToon("bob", 10, "scr_tooninfo");
   });
 });
