@@ -27,7 +27,7 @@ describe("SCApi", () => {
   });
 
   it("can fetch and parse the leaderboard name search API response", async () => {
-    await api.leaderboardNameSearch("bob");
+    await api.leaderboardNameSearch(1, "bob");
   });
 
   it("can fetch and parse the leaderboard rank by toon API response", async () => {

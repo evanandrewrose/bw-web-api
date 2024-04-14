@@ -13,7 +13,7 @@ Below is a table of the known, supported endpoints and the corresponding methods
 | `/v1/file-set/classic.files.global.maps-1v1`                                  | `classicFilesGlobalMaps1v1()`                               | List of ladder maps by season                |
 | `/v1/gateway`                                                                 | `gateway()`                                                 | Gateways, ids, online player counts          |
 | `/v1/leaderboard/{ladder}?offset={offset}&length={length}`                    | `leaderboardEntity(ladder, offset, length)`                 | Paginated player rankings                    |
-| `/v1/leaderboard-name-search/{toon}`                                          | `leaderboardNameSearch(toon)`                               | Name search of ranked players                |
+| `/v1/leaderboard-name-search/{ladder}/{toon}`                                 | `leaderboardNameSearch(toon)`                               | Name search of ranked players                |
 | `/v1/leaderboard-rank-by-toon/{ladder}/{toon}/{gateway}`                      | `leaderboardRankByToon(ladder, toon, gateway)`              | Ranked data for a given profile              |
 | `/v1/leaderboard`                                                             | `leaderboard()`                                             | List of all leaderboards                     |
 | `/v1/map-stats-by-toon/{toon}/{gateway}`                                      | `mapStatsByToon(toon, gateway)`                             | Win rate by map and season                   |
