@@ -1,6 +1,6 @@
 {
   "name": "bw-web-api",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "./dist/bw-web-api.umd.js",
   "module": "./dist/bw-web-api.mjs",
   "exports": {
