@@ -3,9 +3,15 @@ import { BroodWarConnection } from "@/bw-connection";
 import { readFile } from "fs/promises";
 import { assert, describe, it, vi } from "vitest";
 
+const encodeURIByParts = (parts: string) =>
+  parts.split("/").map(encodeURIComponent).join("/");
+
 vi.stubGlobal("fetch", async (path: string) => ({
   text: async () => {
-    const response = await readFile(`./test/data/${path}.json`, "utf8");
+    const response = await readFile(
+      `./test/data/${encodeURIByParts(path)}.json`,
+      "utf8"
+    );
 
     return response;
   },

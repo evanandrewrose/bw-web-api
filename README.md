@@ -8,7 +8,7 @@ exploring the ladder, viewing profiles, etc.
 Below is a table of the known, supported endpoints and the corresponding methods exposed on the `SCApi` class.
 
 | Endpoint                                                                      | `SCApi` method                                              | Notes                                        |
-| ----------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------                                   |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------- |
 | `/v1/aurora-profile-by-toon/{toon}/{gateway}`                                 | `auroraProfileByToon(toon, gateway)`                        | Deprecated, useless now                      |
 | `/v1/file-set/classic.files.global.maps-1v1`                                  | `classicFilesGlobalMaps1v1()`                               | List of ladder maps by season                |
 | `/v1/gateway`                                                                 | `gateway()`                                                 | Gateways, ids, online player counts          |

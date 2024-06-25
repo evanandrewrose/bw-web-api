@@ -153,7 +153,9 @@ export class SCApi implements ISCApi {
   ): Promise<LeaderboardNameSearchResponse> =>
     await this.schemaFetch(
       LeaderboardNameSearchResponseSchema,
-      `web-api/v1/leaderboard-name-search/${leaderboardId}/${encodeURIComponent(toon)}`
+      `web-api/v1/leaderboard-name-search/${leaderboardId}/${encodeURIComponent(
+        toon
+      )}`
     );
 
   leaderboardRankByToon = async (
