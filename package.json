@@ -6,7 +6,8 @@
   "exports": {
     ".": {
       "import": "./dist/bw-web-api.mjs",
-      "require": "./dist/bw-web-api.umd.js"
+      "require": "./dist/bw-web-api.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "types": "./dist/index.d.ts",
