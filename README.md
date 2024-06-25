@@ -9,7 +9,6 @@ Below is a table of the known, supported endpoints and the corresponding methods
 
 | Endpoint                                                                      | `SCApi` method                                              | Notes                                        |
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------- |
-| `/v1/aurora-profile-by-toon/{toon}/{gateway}`                                 | `auroraProfileByToon(toon, gateway)`                        | Deprecated, useless now                      |
 | `/v1/file-set/classic.files.global.maps-1v1`                                  | `classicFilesGlobalMaps1v1()`                               | List of ladder maps by season                |
 | `/v1/gateway`                                                                 | `gateway()`                                                 | Gateways, ids, online player counts          |
 | `/v1/leaderboard/{ladder}?offset={offset}&length={length}`                    | `leaderboardEntity(ladder, offset, length)`                 | Paginated player rankings                    |
@@ -34,8 +33,10 @@ import { SCApi, BroodWarConnection } from 'bw-web-api';
 
 const sc = new SCApi(new BroodWarConnection(`localhost:50250`));
 
-const profile = sc.auroraProfileByToon('By.SnOw1', 30);
+const profile = sc.auroraProfileByToon('By.SnOw1', 30, "scr_mmgameloading");
 ```
+
+Note: for profile information, you have to provide a flag which corresponds to the in-game view. They likely implemented it this way because the "full view" (`scr_profile`) is very slow to load.
 
 # StarCraft Port
 
