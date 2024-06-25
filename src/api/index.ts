@@ -61,6 +61,14 @@ export type AuroraProfileByToonV2FieldMask =
   | "scr_tooninfo"
   | "scr_profile";
 
+export enum Region {
+  USWest = 10,
+  USEast = 11,
+  Europe = 20,
+  Korea = 30,
+  Asia = 45,
+}
+
 export interface ISCApi {
   classicFilesGlobalMaps1v1: () => Promise<ClassicFilesGlobalMaps1v1Response>;
   gateway: () => Promise<GatewayResponse>;
@@ -77,15 +85,15 @@ export interface ISCApi {
   leaderboardRankByToon: (
     ladder: number,
     toon: string,
-    gateway: number
+    gateway: Region
   ) => Promise<LeaderboardRankByToonResponse>;
   mapStatsByToon: (
     toon: string,
-    gateway: number
+    gateway: Region
   ) => Promise<MapStatsByToonResponse>;
   matchMakerGameInfoByToon: (
     toon: string,
-    gateway: number,
+    gateway: Region,
     gameMode: number,
     season: number,
     offset: number,
@@ -96,7 +104,7 @@ export interface ISCApi {
   ) => Promise<MatchMakerGameInfoPlayerInfoResponse>;
   auroraProfileByToon: (
     toon: string,
-    gateway: number,
+    gateway: Region,
     mask: AuroraProfileByToonV2FieldMask
   ) => Promise<
     | AuroraProfileByToonScrMmGameLoadingResponse
@@ -161,7 +169,7 @@ export class SCApi implements ISCApi {
   leaderboardRankByToon = async (
     ladder: number,
     toon: string,
-    gateway: number
+    gateway: Region
   ): Promise<LeaderboardRankByToonResponse> =>
     await this.schemaFetch(
       LeaderboardRankByToonResponseSchema,
@@ -175,7 +183,7 @@ export class SCApi implements ISCApi {
 
   mapStatsByToon = async (
     toon: string,
-    gateway: number
+    gateway: Region
   ): Promise<MapStatsByToonResponse> =>
     await this.schemaFetch(
       MapStatsByToonResponseSchema,
@@ -184,7 +192,7 @@ export class SCApi implements ISCApi {
 
   matchMakerGameInfoByToon = async (
     toon: string,
-    gateway: number,
+    gateway: Region,
     gameMode: number,
     season: number,
     offset = 0,
@@ -207,7 +215,7 @@ export class SCApi implements ISCApi {
 
   auroraProfileByToon = async (
     toon: string,
-    gateway: number,
+    gateway: Region,
     mask: AuroraProfileByToonV2FieldMask
   ): Promise<
     | AuroraProfileByToonScrMmGameLoadingResponse
