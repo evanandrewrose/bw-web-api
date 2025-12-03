@@ -17,6 +17,7 @@ Below is a table of the known, supported endpoints and the corresponding methods
 | `/v1/leaderboard`                                                             | `leaderboard()`                                             | List of all leaderboards                     |
 | `/v1/map-stats-by-toon/{toon}/{gateway}`                                      | `mapStatsByToon(toon, gateway)`                             | Win rate by map and season                   |
 | `/v1/matchmaker-gameinfo-playerinfo/{matchId}`                                | `matchMakerGameInfoPlayerInfo(matchId)`                     | Ranked match info and link to replay         |
+| `/v1/matchmaker-gameinfo-by-toon/{toon}/{gateway}/{ladder}/{season}`          | `matchMakerGameInfoByToon(ladder, toon, gateway)`           | Ranked match history                         |
 | `/v2/aurora-profile-by-toon/{toon}/{gateway}?request_flags=scr_mmgameloading` | `auroraProfileByToonv2(toon, gateway, 'scr_mmgameloading')` | Minimal acct info                            |
 | `/v2/aurora-profile-by-toon/{toon}/{gateway}?request_flags=scr_mmtooninfo`    | `auroraProfileByToonv2(toon, gateway, 'scr_mmtooninfo')`    | Minimal acct info + recent game played count |
 | `/v2/aurora-profile-by-toon/{toon}/{gateway}?request_flags=scr_profile`       | `auroraProfileByToonv2(toon, gateway, 'scr_profile')`       | Full acct info                               |
